@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    
+    <title> Bank Details: </title>
+
+
+    <!-- TABLE STYLE CODE-->
+    <style>
+        table,td,th{
+            border: 1px solid black;
+            border-spacing: 0px;
+        }
+    </style>
+
+</head>
+<body>
+    <u><h2> Banks Names:</h2></u>  <!-- UNDERLINE TAG-->
+
+     <ul>                           <!-- UN ORDER LIST-->
+
+        <li>Bank Al Falah Ltd.</li>
+        <li>Faysal Bank Ltd.</li>
+        <li>Bank Al Falah Islamic Ltd.</li>
+        <li>Bank Al Habib Ltd.</li>
+
+     </ul>
+
+     <hr size="3"  noshade>
+
+     <form>
+        <label>Bank Name</label>
+        <input list="Bank Name">
+        <datalist id="Bank Name">
+            <option value="Faysal Bank">
+            <option value="Bank Al Falah">
+            <option value="Bank Al Falah Islamic">
+            <option value="Bank Al Habib Ltd">
+        </datalist>
+
+        <!-- AutoFocus On Submit Button-->
+        
+        <input type="submit" autofocus>
+
+        <hr size="3" noshade>
+        <br>
+        <br>
+
+        
+        
+        <table width="70%" cellspacing="15px">
+
+         <thead> 
+             <tr>
+                <th>Bank Name</th>
+                <th>Contact No</th>
+                <th>Bank Address</th>
+                <th>City</th>
+             </tr>
+          </thead>   
+
+         <tbody>
+             <tr>
+                <td>Bank Al Falah Ltd</td>
+                <td>051-4864701</td>
+                <td>34- B.A Building i-8 Markaz</td>
+                <td>Islamabad</td>
+             </tr>
+
+             <tr>
+                <td>Bank Al Falah Ltd Islamic Banking</td>
+                <td>051-8086107</td>
+                <td>74-E Ajaib Plaza Jinnah Avenue, BlueArea</td>
+                <td>Islamabad</td>
+             </tr>
+        
+             <tr>
+                <td>Faysal Bank Ltd</td>
+                <td>051-2114023</td>
+                <td>1st Floor 7-l F-10 Markaz</td>
+                <td>Islamabad</td>
+             </tr>
+         </tbody>
+
+
+         <tfoot>
+             <tr>
+                <td>Bank Al Habib Ltd</td>
+                <td>051-4571374</td>
+                <td>78-W Roshan Center Jinnah Avenue, BlueArea</td>
+                <td>Islamabad</td>
+             </tr>
+         </tfoot>
+
+        </table>
+        <br>
+        <br>
+        <br>
+
+
+
+
+         <!--  FORM TAG WITH ATRRIBUTES-->
+              <form>
+                <label>Bank Name</label> 
+                <input list="Bank Name" >
+                <input type="submit">
+                <datalist id="Bank Name">
+                    <option value="Bank Al Falah"></option>
+                    <option value="Faysal Bank Ltd."></option>
+                    <option value="Bank Al Habib"></option>
+                    <option value="Bank Al Falah islamic-banking"></option> 
+                </datalist>
+              </form>
+
+     </form>
+
+     
+</body>
+</html>
+
+
